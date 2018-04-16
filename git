@@ -1,0 +1,34 @@
+Git manual
+-------------
+
+-Crear nuevo repositorio y subirlo
+----------------------------------
+
+git init #Para crear el link en local
+git add [* or nombre file] #Añadir todos los ficheros o uno
+git commit -m "first commit"#Preparar el primer envio al servidor.
+git remote add  origin <url del repositorio>
+git push -u origin <master or your branch>#Enviar paquete al servidor
+
+-Bajar todo un repositorio a una carpeta en local
+-------------------------------------------------
+
+git init#link local
+git clone <url of repository>#Baja todo a la carpeta donde estes>
+
+-Actualizar tu carpeta local con el repositorio
+--------------------------
+git pull#actualizar
+
+-Subir archivos al repositorio
+------------------------------
+
+git add <filename>
+git commit -m "Commit message"
+git push origin <master or your branch>
+
+-Actualizar el repositorio dese la carpeta local
+------------------------------------------------
+git remote add origin <url del repositorio>
+git push -u origin <your branch>
+
